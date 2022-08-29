@@ -1,0 +1,99 @@
+!!index array str
+ "MSS"
+!entry.MSS.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "N" "N" 0 1 131072 1 7 -0.415700
+ "H" "H" 0 1 131072 2 1 0.271900
+ "CA" "CT" 0 1 131072 3 6 0.119960
+ "HA" "H1" 0 1 131072 4 1 0.010000
+ "CB" "2C" 0 1 131072 5 6 -0.359570
+ "HB2" "H1" 0 1 131072 6 1 0.166270
+ "HB3" "H1" 0 1 131072 7 1 0.166270
+ "S1" "S" 0 1 131072 8 16 -0.281170
+ "S2" "SH" 0 1 131072 9 16 -0.707360
+ "C" "C" 0 1 131072 10 6 0.597300
+ "O" "O" 0 1 131072 11 8 -0.567900
+!entry.MSS.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "N" "N" 0 -1 0.0
+ "H" "H" 0 -1 0.0
+ "CA" "CT" 0 -1 0.0
+ "HA" "H1" 0 -1 0.0
+ "CB" "2C" 0 -1 0.0
+ "HB2" "H1" 0 -1 0.0
+ "HB3" "H1" 0 -1 0.0
+ "S1" "S" 0 -1 0.0
+ "S2" "SH" 0 -1 0.0
+ "C" "C" 0 -1 0.0
+ "O" "O" 0 -1 0.0
+!entry.MSS.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.MSS.unit.childsequence single int
+ 2
+!entry.MSS.unit.connect array int
+ 0
+ 0
+!entry.MSS.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+ 1 3 1
+ 3 4 1
+ 3 5 1
+ 3 10 1
+ 5 6 1
+ 5 7 1
+ 5 8 1
+ 8 9 1
+ 10 11 1
+!entry.MSS.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+!entry.MSS.unit.name single str
+ "MSS"
+!entry.MSS.unit.positions table  dbl x  dbl y  dbl z
+ 3.32577 1.54791 -1.6e-06
+ 3.90941 0.723611 -2.7e-06
+ 3.97005 2.84579 -1e-07
+ 3.67166 3.40013 -0.88982
+ 3.57697 3.65384 1.23214
+ 2.49699 3.80108 1.24138
+ 3.87748 3.11579 2.1312
+ 4.35878 5.29437 1.28264
+ 3.61227 6.10538 3.06539
+ 5.48554 2.70521 -4.4e-06
+ 6.00882 1.59317 -8.4e-06
+!entry.MSS.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 1 11 0 0 0 0
+!entry.MSS.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "MSS" 1 12 1 "?" 5
+!entry.MSS.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.MSS.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.MSS.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
