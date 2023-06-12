@@ -1,0 +1,97 @@
+!entry.SEM.unit.atoms table str name str type int typex int resx int flags int seq int elmnt dbl chg
+"N" "N" 0 1 131073 1 7 -0.415700
+"HN" "H" 0 1 131073 2 1 0.271900
+"CA" "CT" 0 1 131073 3 6 -0.045600
+"HA" "H1" 0 1 131073 4 1 0.010000
+"CB" "CT" 0 1 131073 5 6 -0.170000
+"HB3" "H1" 0 1 131073 6 1 0.085000
+"HB2" "H1" 0 1 131073 7 1 0.085000
+"Se" "Se" 0 1 131073 8 34 -0.160000
+"C" "C" 0 1 131073 9 6 0.597300
+"O" "O" 0 1 131073 10 8 -0.567900
+"O13" "O2" 0 1 17825793 11 8 -0.690000
+!entry.SEM.unit.atomspertinfo table str pname str ptype int ptypex int pelmnt dbl pchg
+"N" "N" 0 -1 0.0
+"HN" "H" 0 -1 0.0
+"CA" "CT" 0 -1 0.0
+"HA" "H1" 0 -1 0.0
+"CB" "CT" 0 -1 0.0
+"HB3" "H1" 0 -1 0.0
+"HB2" "H1" 0 -1 0.0
+"Se" "Se" 0 -1 0.0
+"C" "C" 0 -1 0.0
+"O" "O" 0 -1 0.0
+"O13" "O2" 0 -1 0.0
+!entry.SEM.unit.boundbox array dbl
+-1.000000
+0.0
+0.0
+0.0
+0.0
+!entry.SEM.unit.childsequence single int
+2
+!entry.SEM.unit.connect array int
+1
+9
+!entry.SEM.unit.connectivity table int atom1x int atom2x int flags
+1 2 1
+1 3 1
+3 4 1
+3 5 1
+3 9 1
+5 6 1
+5 7 1
+5 8 1
+8 11 1
+9 10 1
+!entry.SEM.unit.hierarchy table str abovetype int abovex str belowtype int belowx
+"U" 0 "R" 1
+"R" 1 "A" 1
+"R" 1 "A" 2
+"R" 1 "A" 3
+"R" 1 "A" 4
+"R" 1 "A" 5
+"R" 1 "A" 6
+"R" 1 "A" 7
+"R" 1 "A" 8
+"R" 1 "A" 9
+"R" 1 "A" 10
+"R" 1 "A" 11
+!entry.SEM.unit.name single str
+"SEM"
+!entry.SEM.unit.positions table dbl x dbl y dbl z
+3.325770 1.547909 -1.607257E-06
+3.909407 0.723611 -2.739904E-06
+3.970048 2.845795 -1.312144E-07
+3.671663 3.400129 -0.889820
+3.576965 3.653838 1.232143
+3.877484 3.115795 2.131197
+2.496995 3.801075 1.241379
+4.309573 5.303523 1.366036
+5.485541 2.705207 -4.398851E-06
+6.008824 1.593175 -8.449829E-06
+2.900278 5.948638 1.815306
+!entry.SEM.unit.residueconnect table int c1x int c2x int c3x int c4x int c5x int c6x
+1 9 0 0 0 0
+!entry.SEM.unit.residues table str name int seq int childseq int startatomx str restype int imagingx
+"SEM" 1 13 1 "p" 0
+!entry.SEM.unit.residuesPdbSequenceNumber array int
+0
+!entry.SEM.unit.solventcap array dbl
+-1.000000
+0.0
+0.0
+0.0
+0.0
+!entry.SEM.unit.velocities table dbl x dbl y dbl z
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
