@@ -9,7 +9,7 @@
  "HB2" "H1" 0 1 131072 6 1 0.174600
  "HB3" "H1" 0 1 131072 7 1 0.174600
  "S1" "S" 0 1 131072 8 16 -0.321720
- "OS" "O" 0 1 131072 9 8 -0.632680
+ "OS" "O2" 0 1 131072 9 8 -0.632680
  "C" "C" 0 1 131072 10 6 0.597300
  "O" "O" 0 1 131072 11 8 -0.567900
 !entry.MSO.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
@@ -21,7 +21,7 @@
  "HB2" "H1" 0 -1 0.0
  "HB3" "H1" 0 -1 0.0
  "S1" "S" 0 -1 0.0
- "OS" "O" 0 -1 0.0
+ "OS" "O2" 0 -1 0.0
  "C" "C" 0 -1 0.0
  "O" "O" 0 -1 0.0
 !entry.MSO.unit.boundbox array dbl
@@ -33,8 +33,8 @@
 !entry.MSO.unit.childsequence single int
  2
 !entry.MSO.unit.connect array int
- 0
- 0
+ 1
+ 10
 !entry.MSO.unit.connectivity table  int atom1x  int atom2x  int flags
  1 2 1
  1 3 1
@@ -76,7 +76,7 @@
 !entry.MSO.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
  1 11 0 0 0 0
 !entry.MSO.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
- "MSO" 1 12 1 "?" 5
+ "MSO" 1 12 1 "p" 5
 !entry.MSO.unit.residuesPdbSequenceNumber array int
  0
 !entry.MSO.unit.solventcap array dbl

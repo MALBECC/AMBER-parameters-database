@@ -35,8 +35,8 @@
 !entry.SOH.unit.childsequence single int
  2
 !entry.SOH.unit.connect array int
- 0
- 0
+ 1
+ 11
 !entry.SOH.unit.connectivity table  int atom1x  int atom2x  int flags
  1 2 1
  1 3 1
@@ -81,7 +81,7 @@
 !entry.SOH.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
  1 12 0 0 0 0
 !entry.SOH.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
- "SOH" 1 13 1 "?" 5
+ "SOH" 1 13 1 "p" 5
 !entry.SOH.unit.residuesPdbSequenceNumber array int
  0
 !entry.SOH.unit.solventcap array dbl
