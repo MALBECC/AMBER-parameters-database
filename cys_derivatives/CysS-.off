@@ -31,8 +31,8 @@
 !entry.CY2.unit.childsequence single int
  2
 !entry.CY2.unit.connect array int
- 0
- 0
+ 1
+ 9
 !entry.CY2.unit.connectivity table  int atom1x  int atom2x  int flags
  1 3 1
  1 2 1
